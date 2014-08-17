@@ -1235,6 +1235,7 @@ class Google_Service_Gmail_History extends Google_Collection
     $this->messages = $messages;
   }
 
+	/** @return Google_Service_Gmail_Message[] */
   public function getMessages()
   {
     return $this->messages;
@@ -1350,6 +1351,7 @@ class Google_Service_Gmail_ListHistoryResponse extends Google_Collection
     $this->history = $history;
   }
 
+	/** @return Google_Service_Gmail_History[] */
   public function getHistory()
   {
     return $this->history;
@@ -1462,6 +1464,7 @@ class Google_Service_Gmail_ListThreadsResponse extends Google_Collection
     $this->threads = $threads;
   }
 
+	/** @return Google_Service_Gmail_Thread[] */
   public function getThreads()
   {
     return $this->threads;
@@ -1515,6 +1518,7 @@ class Google_Service_Gmail_Message extends Google_Collection
     $this->payload = $payload;
   }
 
+	/** @return Google_Service_Gmail_MessagePart */
   public function getPayload()
   {
     return $this->payload;
@@ -1598,6 +1602,7 @@ class Google_Service_Gmail_MessagePart extends Google_Collection
     $this->headers = $headers;
   }
 
+	/** @return Google_Service_Gmail_MessagePartHeader[] */
   public function getHeaders()
   {
     return $this->headers;
@@ -1782,6 +1787,7 @@ class Google_Service_Gmail_Thread extends Google_Collection
     $this->messages = $messages;
   }
 
+	/** @return Google_Service_Gmail_Message[] */
   public function getMessages()
   {
     return $this->messages;
